@@ -2,7 +2,7 @@ import PIL
 import numpy as np
 
 
-class DataHandler(object):
+class DataHandling(object):
 
     def __init__(self):
         pass
