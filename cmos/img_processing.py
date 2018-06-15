@@ -14,6 +14,7 @@ class ImgProcessing(object):
 
     def kartesian2polar(self, img_array):
         # 1. find center:
+        pass
 
 
     def polar2kartesian(self):
