@@ -30,8 +30,11 @@ class ImgProcessing(object):
         # TODO: Wolkenkammera-Docu Abschnitt 4.2, am liebsten ohne Schleife. Die neuen vom Mittelpunktabhängigen Werte sollen x_new und y_new heißen.
         # Idee: mit numpy roll die achsen zurechtrollen.
 
+        img_array_centered = np.roll(img_array,shift=center[0],axis=0)
+        img_array_centered = np.roll(img_array_centered,shift=center[1],axis=1)
+
         # 2. get radius:
-        r = np.sqrt(np.power(center[0],2)+np.power(center[1],2))
+        r = np.sqrt()
 
         # 3. calc Azimuth:
         alpha = np.arctan2(x_new,y_new)
