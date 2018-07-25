@@ -4,7 +4,7 @@ CMOS (Cloud Mapping On Surface)
 
 
 Das ist noch zu tun
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 Tobi: ASCA auf eigene Daten anpassen
 
