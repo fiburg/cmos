@@ -106,5 +106,6 @@ print("shape:", _img_shape)
 print("New Shape:",new_shape)
 
 
-undistort(file, dim2=new_shape,balance=0.0)
+# undistort(file, dim2=new_shape,balance=0.0)
+undistort(file)
 # undistort1(file)
